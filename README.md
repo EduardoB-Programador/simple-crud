@@ -5,7 +5,7 @@
 |[Visão geral](#visão-geral)|[Overview](#overview)|
 |[Arquivo person.py](#arquivo-personpy)|[person.py file](#personpy-file)|
 |[Arquivo connectivity.py](#arquivo-connectivitypy)|[connectivity.py file](#connectivitypy-file)|
-|[Arquivo main.py](#arquivo-mainpy)||
+|[Arquivo main.py](#arquivo-mainpy)|[main.py file](#mainpy-file)|
 
 # Português
 
@@ -158,7 +158,7 @@ update_many(collection:pymongo.collection.Collection, query:dict, values:dict) -
 find(collection:pymongo.collection.Collection, query:dict|None = None, projection:dict|None = None) -> list
 ```
 
-## Arquivo main.py
+## main.py file
 This file holds the main structure to run the system, alongside it, it also holds some auxiliary methods and the CRUD methods.
 
 Below you can see all methods built in the file:
